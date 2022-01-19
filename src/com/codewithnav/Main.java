@@ -1,8 +1,11 @@
 package com.codewithnav;
 
-public class Main {
+import com.codewithnav.models.Person;
+import com.codewithnav.models.Student;
 
+public class Main {
     public static void main(String[] args) {
-	// write your code here
+        Person person = new Student("Navpreet Singh");
+        ((Student) person).study();
     }
 }
